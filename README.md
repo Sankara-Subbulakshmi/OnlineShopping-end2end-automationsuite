@@ -42,7 +42,7 @@ Order confirmation and history
 - **Reporting**:ExtentReports 
 - **CI/CD**: GitHub Actions / Jenkins *(optional)*
 ## 📂 Project View
-<summary> folder structure </summary>
+
 ```plaintext
 OnlineShopping-End2End-AutomationSuite/
 ├── src/
@@ -64,4 +64,5 @@ OnlineShopping-End2End-AutomationSuite/
 ├── pom.xml
 ├── README.md
 └── LICENSE
-```
+├── README.md                                 # Project README file
+└── LICENSE                                   # License file
