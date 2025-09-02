@@ -64,5 +64,4 @@ OnlineShopping-End2End-AutomationSuite/
 ├── pom.xml
 ├── README.md
 └── LICENSE
-├── README.md                                 # Project README file
-└── LICENSE                                   # License file
+```
