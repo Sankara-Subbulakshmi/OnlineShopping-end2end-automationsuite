@@ -48,18 +48,24 @@ OnlineShopping-End2End-AutomationSuite/
 ├── src/
 │   ├── main/
 │   │   └── java/
-│   │       ├── pages/
-│   │       ├── tests/
-│   │       ├── utils/
-│   │       └── config/
+            ├── **AbstractComponennts package**/(utils)
+│   │       ├── **pagesObjects package**/(pages)
+│   │    ├── **resources Package**/(extent report,config prop)
+                 ├── reports/
+│                 └──globalData.properties
+│        
+│        
 │   └── test/
-│       ├── TestRunner.java
-│       └── TestData/
-├── drivers/
-├── logs/
-├── reports/
-├── resources/
-│   └── config.properties
+         ├──** BaseTestcomponennts package**/
+│               ├── BaseTest.java(Screenshot, webdriver initialization)
+│                └── Listeners.java/
+                 └── Retry.java/
+        ├── **dataPackage**/
+         ├── PurchaseOrder.json/
+│       └──** Test Package**/
+                └──StandAloneTest.java /(Execution application file)
+                └──ErrorValidation.java /(Logs) 
+
 ├── .gitignore
 ├── pom.xml
 ├── README.md
